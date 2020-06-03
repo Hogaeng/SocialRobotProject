@@ -1,5 +1,6 @@
 # 한국과학기술연구원 소셜로봇 프로젝트 코드
-해당 내용은 프로젝트 전체가 아닌 일부를 나타냅니다.    관련 프로젝트를 진행하기 위한 파일럿 테스트에서 작성한 코드를 서술합니다.
+해당 내용은 프로젝트 전체가 아닌 일부를 나타냅니다.    
+관련 프로젝트를 진행하기 위한 파일럿 테스트에서 작성한 코드를 서술합니다.
 
 ## ListenAndRepeat.py
 네이버의 openapi를 이용해 텍스트를 오디오 파일로 만들고, 재생하는 객체 ListenAndRepeat가 정의됨.
@@ -7,8 +8,8 @@
 * tellme() : play 함수에서 만들어진 오디오 파일을 재생하는 함수.
 
 ## transcribe_streaming_mic.py
-GoogleSpeech를 이용해 마이크의 음성데이터를 텍스트로 만드는 기능을 멀티스레드로 진행하는 역할.    Google Cloud Speech API 샘플 코드를 사용.
-
+GoogleSpeech를 이용해 마이크의 음성데이터를 텍스트로 만드는 기능을 멀티스레드로 진행하는 역할.     
+Google Cloud Speech API 샘플 코드를 사용.
 ## pilotTest.py
 KoNLPy의 komoran, kkma, twitter 태그를 이용해 품사를 나누는 코드.
 각 태그마다 품사가 다르다.

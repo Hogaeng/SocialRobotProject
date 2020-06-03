@@ -1,27 +1,27 @@
-# ÇÑ±¹°úÇÐ±â¼ú¿¬±¸¿ø ¼Ò¼È·Îº¿ ÇÁ·ÎÁ§Æ® ÄÚµå
-ÇØ´ç ³»¿ëÀº ÇÁ·ÎÁ§Æ® ÀüÃ¼°¡ ¾Æ´Ñ ÀÏºÎ¸¦ ³ªÅ¸³À´Ï´Ù.
-°ü·Ã ÇÁ·ÎÁ§Æ®¸¦ ÁøÇàÇÏ±â À§ÇÑ ÆÄÀÏ·µ Å×½ºÆ®¿¡¼­ ÀÛ¼ºÇÑ ÄÚµå¸¦ ¼­¼úÇÕ´Ï´Ù.
+# í•œêµ­ê³¼í•™ê¸°ìˆ ì—°êµ¬ì› ì†Œì…œë¡œë´‡ í”„ë¡œì íŠ¸ ì½”ë“œ
+í•´ë‹¹ ë‚´ìš©ì€ í”„ë¡œì íŠ¸ ì „ì²´ê°€ ì•„ë‹Œ ì¼ë¶€ë¥¼ ë‚˜íƒ€ëƒ…ë‹ˆë‹¤.
+ê´€ë ¨ í”„ë¡œì íŠ¸ë¥¼ ì§„í–‰í•˜ê¸° ìœ„í•œ íŒŒì¼ëŸ¿ í…ŒìŠ¤íŠ¸ì—ì„œ ìž‘ì„±í•œ ì½”ë“œë¥¼ ì„œìˆ í•©ë‹ˆë‹¤.
 
 ## ListenAndRepeat.py
-³×ÀÌ¹öÀÇ openapi¸¦ ÀÌ¿ëÇØ ÅØ½ºÆ®¸¦ ¿Àµð¿À ÆÄÀÏ·Î ¸¸µé°í, Àç»ýÇÏ´Â °´Ã¼ ListenAndRepeat°¡ Á¤ÀÇµÊ.
-	*play(sentence)
-		sentenceÀÇ ¹®Àå ³×ÀÌ¹ö openapi¸¦ ÀÌ¿ëÇØ ºÐ¼® ÈÄ ¿Àµð¿À ÆÄÀÏ·Î ¸¸µå´Â ÇÔ¼ö.
-	*tellme()
-		play ÇÔ¼ö¿¡¼­ ¸¸µé¾îÁø ¿Àµð¿À ÆÄÀÏÀ» Àç»ýÇÏ´Â ÇÔ¼ö.
+ë„¤ì´ë²„ì˜ openapië¥¼ ì´ìš©í•´ í…ìŠ¤íŠ¸ë¥¼ ì˜¤ë””ì˜¤ íŒŒì¼ë¡œ ë§Œë“¤ê³ , ìž¬ìƒí•˜ëŠ” ê°ì²´ ListenAndRepeatê°€ ì •ì˜ë¨.
+	* play(sentence)
+		sentenceì˜ ë¬¸ìž¥ ë„¤ì´ë²„ openapië¥¼ ì´ìš©í•´ ë¶„ì„ í›„ ì˜¤ë””ì˜¤ íŒŒì¼ë¡œ ë§Œë“œëŠ” í•¨ìˆ˜.
+	* tellme()
+		play í•¨ìˆ˜ì—ì„œ ë§Œë“¤ì–´ì§„ ì˜¤ë””ì˜¤ íŒŒì¼ì„ ìž¬ìƒí•˜ëŠ” í•¨ìˆ˜.
 
 ## transcribe_streaming_mic.py
-GoogleSpeech¸¦ ÀÌ¿ëÇØ ¸¶ÀÌÅ©ÀÇ À½¼ºµ¥ÀÌÅÍ¸¦ ÅØ½ºÆ®·Î ¸¸µå´Â ±â´ÉÀ» ¸ÖÆ¼½º·¹µå·Î ÁøÇàÇÏ´Â ¿ªÇÒ.
-Google Cloud Speech API »ùÇÃ ÄÚµå¸¦ »ç¿ë.
+GoogleSpeechë¥¼ ì´ìš©í•´ ë§ˆì´í¬ì˜ ìŒì„±ë°ì´í„°ë¥¼ í…ìŠ¤íŠ¸ë¡œ ë§Œë“œëŠ” ê¸°ëŠ¥ì„ ë©€í‹°ìŠ¤ë ˆë“œë¡œ ì§„í–‰í•˜ëŠ” ì—­í• .
+Google Cloud Speech API ìƒ˜í”Œ ì½”ë“œë¥¼ ì‚¬ìš©.
 
 ## pilotTest.py
-KoNLPyÀÇ komoran, kkma, twitter ÅÂ±×¸¦ ÀÌ¿ëÇØ Ç°»ç¸¦ ³ª´©´Â ÄÚµå.
-°¢ ÅÂ±×¸¶´Ù Ç°»ç°¡ ´Ù¸£´Ù.
+KoNLPyì˜ komoran, kkma, twitter íƒœê·¸ë¥¼ ì´ìš©í•´ í’ˆì‚¬ë¥¼ ë‚˜ëˆ„ëŠ” ì½”ë“œ.
+ê° íƒœê·¸ë§ˆë‹¤ í’ˆì‚¬ê°€ ë‹¤ë¥´ë‹¤.
 
 ## pilotTest2.py
-gensimÀ¸·Î word2vec ¸ðµ¨À» ºÒ·¯ Å×½ºÆ®¸¦ ÁøÇàÇÏ´Â ÄÚµå.
-¸ðµ¨Àº ¿ë·®ÀÌ ³Ê¹« Ä¿ gitignore·Î ¾÷·Îµå¿¡ Á¦¿Ü½ÃÄ×À½.
-¼ýÀÚ°¡ 1¿¡ °¡±î¿ï¼ö·Ï »ó°ü°ü°è°¡ ³ô´Ù.
-	*similarity(w1, w2)
-		µÎ ´Ü¾îÀÇ »ó°ü°ü°è°¡ ¾ó¸¶³ª Â÷ÀÌ³ª´ÂÁö ¼öÄ¡·Î ³ªÅ¸³¿.
-	*most_similar(w1)
-		ÇØ´ç ´Ü¾î¿Í °¡Àå À¯»çÇÑ ´Ü¾î¿Í ±× ´Ü¾î¿ÍÀÇ »ó°ü°ü°è¸¦ ¼öÄ¡·Î ³ªÅ¸³¿.
+gensimìœ¼ë¡œ word2vec ëª¨ë¸ì„ ë¶ˆëŸ¬ í…ŒìŠ¤íŠ¸ë¥¼ ì§„í–‰í•˜ëŠ” ì½”ë“œ.
+ëª¨ë¸ì€ ìš©ëŸ‰ì´ ë„ˆë¬´ ì»¤ gitignoreë¡œ ì—…ë¡œë“œì— ì œì™¸ì‹œì¼°ìŒ.
+ìˆ«ìžê°€ 1ì— ê°€ê¹Œìš¸ìˆ˜ë¡ ìƒê´€ê´€ê³„ê°€ ë†’ë‹¤.
+	* similarity(w1, w2)
+		ë‘ ë‹¨ì–´ì˜ ìƒê´€ê´€ê³„ê°€ ì–¼ë§ˆë‚˜ ì°¨ì´ë‚˜ëŠ”ì§€ ìˆ˜ì¹˜ë¡œ ë‚˜íƒ€ëƒ„.
+	* most_similar(w1)
+		í•´ë‹¹ ë‹¨ì–´ì™€ ê°€ìž¥ ìœ ì‚¬í•œ ë‹¨ì–´ì™€ ê·¸ ë‹¨ì–´ì™€ì˜ ìƒê´€ê´€ê³„ë¥¼ ìˆ˜ì¹˜ë¡œ ë‚˜íƒ€ëƒ„.
